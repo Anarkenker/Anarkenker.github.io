@@ -69,3 +69,25 @@
       alt: Golden jellyfish floating in a dark aquarium tank
     - image: /assets/images/photos/singapore/southernmost-point.jpg
       alt: A sign reading The Southernmost Point of Continental Asia among tropical plants
+- id: malaysia
+  title: Malaysia
+  location: Malaysia
+  url: /gallery/malaysia/
+  cover: /assets/images/photos/malaysia/twin-towers-at-night.jpg
+  photos:
+    - image: /assets/images/photos/malaysia/twin-towers-at-night.jpg
+      alt: Illuminated twin towers above a busy street at dusk
+    - image: /assets/images/photos/malaysia/flag-and-skyscraper.jpg
+      alt: A colorful flag and a domed building in front of a tall glass skyscraper
+    - image: /assets/images/photos/malaysia/glass-tower.jpg
+      alt: A tall angular glass tower beneath a cloudy sky
+    - image: /assets/images/photos/malaysia/pink-mosque.jpg
+      alt: A pink mosque with patterned domes and a tall minaret
+    - image: /assets/images/photos/malaysia/city-square.jpg
+      alt: Visitors on a grassy city square surrounded by flags and historic buildings
+    - image: /assets/images/photos/malaysia/illuminated-bridge.jpg
+      alt: A pedestrian bridge glowing green and yellow among tall buildings at dusk
+    - image: /assets/images/photos/malaysia/festive-atrium.jpg
+      alt: A crowded shopping atrium decorated for Chinese New Year
+    - image: /assets/images/photos/malaysia/durian.jpg
+      alt: Two opened durians with golden flesh on wicker trays
