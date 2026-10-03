@@ -91,3 +91,27 @@
       alt: A crowded shopping atrium decorated for Chinese New Year
     - image: /assets/images/photos/malaysia/durian.jpg
       alt: Two opened durians with golden flesh on wicker trays
+- id: aba-sichuan
+  title: Aba, Sichuan
+  location: Aba Prefecture, Sichuan, China
+  url: /gallery/aba-sichuan/
+  cover: /assets/images/photos/aba-sichuan/autumn-lakeside.jpg
+  photos:
+    - image: /assets/images/photos/aba-sichuan/autumn-lakeside.jpg
+      alt: A turquoise lake framed by slender trees and golden autumn leaves
+    - image: /assets/images/photos/aba-sichuan/misty-mountains.jpg
+      alt: A misty mountain peak above a forest with autumn foliage
+    - image: /assets/images/photos/aba-sichuan/lake-reflections.jpg
+      alt: Golden trees reflected in a clear blue lake with a submerged log
+    - image: /assets/images/photos/aba-sichuan/mountain-lake.jpg
+      alt: A green mountain lake surrounded by forest and rocky slopes
+    - image: /assets/images/photos/aba-sichuan/mountain-road.jpg
+      alt: A curving mountain road beneath a blue sky and white clouds
+    - image: /assets/images/photos/aba-sichuan/forest-cascades.jpg
+      alt: Water cascading over broad shallow terraces through an autumn forest
+    - image: /assets/images/photos/aba-sichuan/sunlit-lake.jpg
+      alt: Sunlight sparkling on a lake beneath steep mountain slopes
+    - image: /assets/images/photos/aba-sichuan/clear-blue-water.jpg
+      alt: Clear turquoise water revealing rocks beneath a forested shoreline
+    - image: /assets/images/photos/aba-sichuan/skewers-on-the-grill.jpg
+      alt: Skewers being grilled over bright flames at a food stall
