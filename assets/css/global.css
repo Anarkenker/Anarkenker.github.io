@@ -118,7 +118,8 @@ div.lazy {
 
 .album-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(min(100%, 300px), 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 340px));
+    justify-content: center;
     gap: 2rem;
 }
 
@@ -177,14 +178,14 @@ div.lazy {
 
 .photo-stack {
     --stack-height: clamp(260px, 50vh, 420px);
-    height: calc(var(--stack-height) + 64px);
+    height: calc(var(--card-height, var(--stack-height)) + 64px);
     position: relative;
     margin: 0 1rem;
 }
 
 .photo-stack-card {
     position: absolute;
-    top: calc((var(--stack-height) + 64px - var(--card-height, var(--stack-height))) / 2);
+    top: 32px;
     left: 50%;
     width: var(--card-width, 84%);
     height: var(--card-height, var(--stack-height));
@@ -200,6 +201,11 @@ div.lazy {
     width: 100%;
     height: 100%;
     object-fit: contain;
+}
+
+.photo-stack-back-one img,
+.photo-stack-back-two img {
+    object-fit: cover;
 }
 
 .photo-stack-back-two {
