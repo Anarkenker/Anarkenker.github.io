@@ -1,16 +1,19 @@
 <div class="album-grid" aria-label="Photo albums">
     {% for album in site.data.gallery %}
-    <a class="album-card" href="{{ album.url | relative_url }}" aria-label="Open {{ album.title | escape }} album, {{ album.photos.size }} photos">
+    <div class="album-card">
+    <a class="d-block text-reset text-decoration-none" href="{{ album.url | relative_url }}" aria-label="Open {{ album.title | escape }} album, {{ album.photos.size }} photos">
         <div class="album-cover-stack">
             {% for photo in album.photos offset:1 limit:2 %}
             <img class="album-cover-back album-cover-back-{{ forloop.index }}" src="{{ photo.image | relative_url }}" alt="" loading="lazy" aria-hidden="true">
             {% endfor %}
             <img class="album-cover" src="{{ album.cover | relative_url }}" alt="{{ album.title | escape }} album cover" loading="lazy">
         </div>
-        <div class="text-center p-3">
+        <div class="text-center pt-3">
             <h2 class="h5 mb-1">{{ album.title | escape }}</h2>
             <p class="small text-muted mb-0">{{ album.date | escape }} &middot; {{ album.photos.size }} photos</p>
         </div>
     </a>
+    {% include widgets/album_location.html album=album %}
+    </div>
     {% endfor %}
 </div>

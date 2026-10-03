@@ -134,6 +134,14 @@ div.lazy {
     text-decoration: none;
 }
 
+.album-location {
+    color: #687585;
+}
+
+.album-location:hover {
+    color: #36546e;
+}
+
 .album-card:focus-visible,
 .photo-stack-front:focus-visible,
 .photo-stack-nav:focus-visible {

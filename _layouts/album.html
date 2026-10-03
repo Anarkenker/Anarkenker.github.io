@@ -8,6 +8,7 @@ navbar_title: Gallery
 <section class="album-deck" aria-labelledby="album-title">
     <h1 id="album-title" class="h3 mt-3 mb-2 text-center">{{ album.title | escape }}</h1>
     <p class="small text-muted text-center mb-2">{{ album.date | escape }} &middot; {{ album.photos.size }} photos</p>
+    {% include widgets/album_location.html album=album %}
     <div class="photo-stack">
         <div class="photo-stack-card photo-stack-back-two" aria-hidden="true"><img src="{{ album.photos[2].image | relative_url }}" alt=""></div>
         <div class="photo-stack-card photo-stack-back-one" aria-hidden="true"><img src="{{ album.photos[1].image | relative_url }}" alt=""></div>

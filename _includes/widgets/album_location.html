@@ -1,0 +1,7 @@
+{% if include.album.location %}
+<p class="small text-center mt-2 mb-2">
+    <a class="album-location" href="https://www.google.com/maps/search/?api=1&amp;query={{ include.album.location | url_encode }}" target="_blank" rel="noopener noreferrer" aria-label="View {{ include.album.location | escape }} on map">
+        <i class="fas fa-location-dot mr-1" aria-hidden="true"></i>{{ include.album.location | escape }}
+    </a>
+</p>
+{% endif %}
