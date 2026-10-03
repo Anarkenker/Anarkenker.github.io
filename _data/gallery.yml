@@ -139,5 +139,27 @@
       alt: A
     - image: /assets/images/photos/garze-sichuan/9.jpg
       alt: A
-
-  
+- id: hainan
+  title: Hainan Province
+  location: Hainan Province
+  url: /gallery/Hainan/
+  cover: /assets/images/photos/Hainan/1.jpg
+  photos:
+    - image: /assets/images/photos/Hainan/1.jpg
+      alt: A
+    - image: /assets/images/photos/Hainan/2.jpg
+      alt: A
+    - image: /assets/images/photos/Hainan/3.jpg
+      alt: A
+    - image: /assets/images/photos/Hainan/4.jpg
+      alt: A
+    - image: /assets/images/photos/Hainan/5.jpg
+      alt: A
+    - image: /assets/images/photos/Hainan/6.jpg
+      alt: A
+    - image: /assets/images/photos/Hainan/7.jpg
+      alt: A
+    - image: /assets/images/photos/Hainan/8.jpg
+      alt: A
+    - image: /assets/images/photos/Hainan/9.jpg
+      alt: A
