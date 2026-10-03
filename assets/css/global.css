@@ -119,97 +119,134 @@ div.lazy {
 .album-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(min(100%, 300px), 1fr));
-    gap: 1.5rem;
+    gap: 2rem;
 }
 
 .album-card {
     display: block;
-    overflow: hidden;
     color: #212529;
-    background: white;
-    border-radius: 0.8rem;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
+    padding-top: 1.5rem;
 }
 
 .album-card:hover {
     color: #212529;
     text-decoration: none;
-    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.1);
 }
 
-.album-card:focus-visible {
+.album-card:focus-visible,
+.photo-stack-front:focus-visible,
+.photo-stack-nav:focus-visible {
     outline: 3px solid #007bff;
     outline-offset: 4px;
 }
 
-.album-cover {
-    display: block;
-    width: 100%;
-    aspect-ratio: 3 / 2;
-    object-fit: cover;
-}
-
-.album-previews {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 4px;
-    padding-top: 4px;
-}
-
-.album-previews img {
-    width: 100%;
-    height: 90px;
-    object-fit: cover;
-}
-
-.travel-gallery {
-    columns: 3 240px;
-    column-gap: 1rem;
-}
-
-.travel-photo {
-    display: inline-block;
-    width: 100%;
-    break-inside: avoid;
-    overflow: hidden;
-    border: 1px solid #e8ecf0;
-    border-radius: 0.6rem;
-    background: #fafbfc;
-}
-
-.travel-gallery .travel-photo {
-    margin-bottom: 1rem !important;
-}
-
-.travel-photo-button {
-    display: block;
+.album-cover-stack {
     position: relative;
-    width: 100%;
-    padding: 0;
-    border: 0;
-    background: #eef3f8;
-    cursor: zoom-in;
+    margin: 0 1.25rem;
+    aspect-ratio: 3 / 2;
 }
 
-.travel-photo-button img {
+.album-cover-stack img {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border: 8px solid white;
+    border-bottom-width: 20px;
+    border-radius: 3px;
+    box-shadow: 0 6px 18px rgba(25, 37, 52, 0.13);
+}
+
+.album-cover-back-1 {
+    transform: rotate(-7deg) translate(-7px, -7px);
+}
+
+.album-cover-back-2 {
+    transform: rotate(6deg) translate(7px, -7px);
+}
+
+.album-cover {
+    z-index: 1;
+}
+
+.album-deck {
+    max-width: 760px;
+    margin: 0 auto 2rem;
+}
+
+.photo-stack {
+    --stack-height: clamp(260px, 50vh, 420px);
+    height: calc(var(--stack-height) + 64px);
+    position: relative;
+    margin: 0 1rem;
+}
+
+.photo-stack-card {
+    position: absolute;
+    top: calc((var(--stack-height) + 64px - var(--card-height, var(--stack-height))) / 2);
+    left: 50%;
+    width: var(--card-width, 84%);
+    height: var(--card-height, var(--stack-height));
+    padding: 12px 12px 30px;
+    border: 0;
+    border-radius: 4px;
+    background: white;
+    box-shadow: 0 8px 28px rgba(25, 37, 52, 0.16);
+}
+
+.photo-stack-card img {
     display: block;
     width: 100%;
-    height: auto;
+    height: 100%;
+    object-fit: contain;
 }
 
-.travel-photo-button:focus-visible {
-    outline: 3px solid #007bff;
-    outline-offset: -3px;
+.photo-stack-back-two {
+    transform: translateX(-50%) rotate(-7deg) translate(-12px, -4px);
 }
 
-.travel-photo-expand {
+.photo-stack-back-one {
+    transform: translateX(-50%) rotate(5deg) translate(12px, -4px);
+}
+
+.photo-stack-front {
+    cursor: zoom-in;
+    transform: translateX(-50%) rotate(-1deg);
+}
+
+.photo-stack-expand {
     position: absolute;
-    bottom: 0.75rem;
-    right: 0.75rem;
-    padding: 0.25rem 0.5rem;
-    border-radius: 0.3rem;
-    color: white;
-    background: rgba(0, 0, 0, 0.45);
+    bottom: 8px;
+    right: 14px;
+    color: #687585;
+    font-size: 0.8rem;
+}
+
+.photo-stack-controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.photo-stack-nav {
+    width: 44px;
+    height: 44px;
+    padding: 0;
+    border: 1px solid #e4e8ed;
+    border-radius: 50%;
+    background: white;
+    color: #36546e;
+}
+
+.photo-stack-nav:hover {
+    background: #eef3f8;
+}
+
+.photo-stack-count {
+    min-width: 3rem;
+    text-align: center;
 }
 
 .travel-photo-full {
