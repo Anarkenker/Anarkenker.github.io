@@ -1,0 +1,15 @@
+- name: GKD Vision 2026
+  selected: true
+  cover: /assets/images/covers/gkd-robots.png
+  description: >-
+    A RoboMaster vision system for Southwest University's GKD team, adapted from Tongji University's open-source framework.
+    Built with C++17, OpenCV, and OpenVINO, it integrates YOLO detection, pose estimation, target tracking, aiming, and firing decisions.
+  url: https://github.com/GKD-RM-Lab/gkd_vision_26
+  demo_url: "https://www.xiaohongshu.com/explore/6ab1effe00000000310243bb?xsec_token=ABg6oDOoXoKlxsSrFH13ikwcTbx48OwV2w59UBDAqMS-k=&xsec_source=pc_user"
+- name: GKD Control
+  selected: true
+  cover: /assets/images/covers/gkd-control.png
+  description: >-
+    Robot control software for the GKD RoboMaster team, developed from an integrated vision-and-control system for sentry robots.
+    It supports sentry, infantry, and hero configurations, with a Docker-based development environment and multiple build options.
+  url: https://github.com/GKD-RM-Lab/GKD_Control

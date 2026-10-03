@@ -1,0 +1,15 @@
+{% assign projects = site.data.projects | where: "selected", true %}
+<section class="my-3 p-0 bg-white shadow-sm rounded-xl" aria-labelledby="selected-projects-heading">
+    <h2 id="selected-projects-heading" class="h6 border-bottom border-gray p-3 mb-0">
+        <i class="fas fa-code" aria-hidden="true"></i> Selected Projects
+        <a href="{{ '/project' | relative_url }}">(view all <i class="fas fa-angle-double-right" aria-hidden="true"></i>)</a>
+    </h2>
+    {% for item in projects limit:include.limit %}
+        {% include widgets/project_item.html item=item %}
+    {% else %}
+    <p class="p-3 mb-0 text-muted">Projects coming soon.</p>
+    {% endfor %}
+    <div class="h6 d-block p-3 mt-0 text-right">
+        <a href="{{ '/project' | relative_url }}">All projects <i class="fas fa-angle-double-right" aria-hidden="true"></i></a>
+    </div>
+</section>

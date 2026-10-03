@@ -1,0 +1,5 @@
+{% if include.tags.size > 0 %}
+<div class="publication-tags my-2">
+    {% for tag in include.tags %}<span class="badge badge-pill mr-1 mb-1">{{ tag | escape }}</span>{% endfor %}
+</div>
+{% endif %}

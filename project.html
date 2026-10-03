@@ -1,0 +1,13 @@
+---
+layout: default
+title: Project
+navbar_title: Project
+---
+<h1 class="h3 pt-3 mb-4">Projects</h1>
+<section class="my-0 p-0 bg-white shadow-sm rounded-xl">
+    {% for item in site.data.projects %}
+        {% include widgets/project_item.html item=item hide_bottom_border=forloop.last %}
+    {% else %}
+    <p class="p-3 mb-0 text-muted">Projects coming soon.</p>
+    {% endfor %}
+</section>

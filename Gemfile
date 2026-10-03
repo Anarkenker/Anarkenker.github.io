@@ -31,3 +31,7 @@ gem "wdm", "~> 0.2" if Gem.win_platform?
 
 gem "webrick", "~> 1.7"
 gem "kramdown-parser-gfm"
+
+# safe_yaml requires base64, which newer Ruby versions no longer bundle.
+gem "base64"
+gem "bigdecimal"

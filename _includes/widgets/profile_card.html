@@ -70,6 +70,12 @@
                         </a>
                         {% endif %}
 
+                        {% if site.data.profile.wechat_qr %}
+                        <button type="button" class="btn btn-link p-0 pr-3 no-break align-baseline" data-toggle="modal" data-target="#wechat-modal">
+                            <i class="fab fa-weixin" aria-hidden="true"></i> WeChat
+                        </button>
+                        {% endif %}
+
                         {% if site.data.profile.twitter %}
                         <a class="pr-3 no-break" target="_blank" href="https://twitter.com/{{ site.data.profile.twitter }}">
                             <i class="fab fa-twitter"></i> Twitter
@@ -93,3 +99,7 @@
         </div>        
     </div>
 </div>
+
+{% if site.data.profile.wechat_qr %}
+{% include widgets/wechat_modal.html %}
+{% endif %}
