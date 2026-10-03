@@ -21,3 +21,27 @@
       alt: Southwest University and Berkeley student cards held in front of the campus gate
     - image: /assets/images/photos/shengwen-fu.jpg
       alt: Shengwen Fu wearing a Cal cap and sunglasses on the UC Berkeley campus
+- id: los-angeles
+  title: Los Angeles
+  location: Los Angeles, California
+  url: /gallery/los-angeles/
+  cover: /assets/images/photos/los-angeles/palms-and-skyscrapers.jpg
+  photos:
+    - image: /assets/images/photos/los-angeles/palms-and-skyscrapers.jpg
+      alt: Palm trees and tall downtown buildings beneath a clear blue sky
+    - image: /assets/images/photos/los-angeles/downtown-at-night.jpg
+      alt: Illuminated downtown skyscrapers and traffic on a freeway at night
+    - image: /assets/images/photos/los-angeles/walk-of-fame.jpg
+      alt: Michael Jackson's star on the Hollywood Walk of Fame
+    - image: /assets/images/photos/los-angeles/ceiling-mural.jpg
+      alt: An illuminated ceiling mural surrounded by decorative panels
+    - image: /assets/images/photos/los-angeles/city-panorama.jpg
+      alt: A panoramic view of Los Angeles from a hillside
+    - image: /assets/images/photos/los-angeles/downtown-street.jpg
+      alt: A downtown intersection lined with tall buildings
+    - image: /assets/images/photos/los-angeles/in-n-out.jpg
+      alt: An In-N-Out sign on a white building beneath a blue sky
+    - image: /assets/images/photos/los-angeles/observatory-telescope.jpg
+      alt: A telescope beneath an open observatory dome
+    - image: /assets/images/photos/los-angeles/hollywood-sign.jpg
+      alt: The Hollywood sign on a distant hillside

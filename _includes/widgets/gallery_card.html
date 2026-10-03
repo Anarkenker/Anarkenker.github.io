@@ -10,7 +10,7 @@
         </div>
         <div class="text-center pt-3">
             <h2 class="h5 mb-1">{{ album.title | escape }}</h2>
-            <p class="small text-muted mb-0">{{ album.date | escape }} &middot; {{ album.photos.size }} photos</p>
+            <p class="small text-muted mb-0">{% if album.date %}{{ album.date | escape }} &middot; {% endif %}{{ album.photos.size }} photos</p>
         </div>
     </a>
     {% include widgets/album_location.html album=album %}
