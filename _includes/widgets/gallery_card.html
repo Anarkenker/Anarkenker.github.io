@@ -1,39 +1,16 @@
-{% assign photos = site.data.gallery %}
-{% if photos.size > 0 %}
-<section class="my-0 bg-white shadow-sm rounded-xl" aria-labelledby="gallery-heading">
-    <div class="p-3">
-        <p class="small text-muted mb-3">A few moments from life beyond research.</p>
-        <div class="travel-gallery {% if photos.size == 1 %}travel-gallery-single{% endif %}">
-            {% for photo in photos %}
-            <figure class="travel-photo mb-0">
-                <button type="button" class="travel-photo-button" data-toggle="modal" data-target="#travel-photo-{{ forloop.index }}" aria-label="View photo: {{ photo.title | escape }}">
-                    <img src="{{ photo.image | relative_url }}" alt="{{ photo.alt | escape }}" loading="lazy">
-                    <span class="travel-photo-expand"><i class="fas fa-expand" aria-hidden="true"></i></span>
-                </button>
-                <figcaption class="p-3">
-                    <p class="small text-muted mb-2"><i class="fas fa-map-marker-alt mr-1" aria-hidden="true"></i> {{ photo.location | escape }}</p>
-                    <h3 class="h5 mb-2">{{ photo.title | escape }}</h3>
-                    <p class="small text-muted mb-0">{{ photo.date | escape }}</p>
-                </figcaption>
-            </figure>
+<div class="album-grid" aria-label="Photo albums">
+    {% for album in site.data.gallery %}
+    <a class="album-card" href="{{ album.url | relative_url }}" aria-label="Open {{ album.title | escape }} album, {{ album.photos.size }} photos">
+        <img class="album-cover" src="{{ album.cover | relative_url }}" alt="{{ album.title | escape }} album cover" loading="lazy">
+        <div class="album-previews" aria-hidden="true">
+            {% for photo in album.photos offset:1 limit:3 %}
+            <img src="{{ photo.image | relative_url }}" alt="" loading="lazy">
             {% endfor %}
         </div>
-    </div>
-</section>
-{% for photo in photos %}
-<div class="modal fade" id="travel-photo-{{ forloop.index }}" tabindex="-1" role="dialog" aria-labelledby="travel-photo-title-{{ forloop.index }}" aria-hidden="true">
-    <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
-        <div class="modal-content rounded-xl">
-            <div class="modal-header">
-                <h2 class="modal-title h6" id="travel-photo-title-{{ forloop.index }}">{{ photo.title | escape }}</h2>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-            </div>
-            <div class="modal-body text-center">
-                <img src="{{ photo.image | relative_url }}" alt="{{ photo.alt | escape }}" class="travel-photo-full">
-                <p class="small text-muted mt-3 mb-0">{{ photo.location | escape }} &middot; {{ photo.date | escape }}</p>
-            </div>
+        <div class="p-3">
+            <h2 class="h5 mb-1">{{ album.title | escape }}</h2>
+            <p class="small text-muted mb-0">{{ album.date | escape }} &middot; {{ album.photos.size }} photos</p>
         </div>
-    </div>
+    </a>
+    {% endfor %}
 </div>
-{% endfor %}
-{% endif %}
