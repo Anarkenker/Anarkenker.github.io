@@ -45,3 +45,27 @@
       alt: A telescope beneath an open observatory dome
     - image: /assets/images/photos/los-angeles/hollywood-sign.jpg
       alt: The Hollywood sign on a distant hillside
+- id: singapore
+  title: Singapore
+  location: Singapore
+  url: /gallery/singapore/
+  cover: /assets/images/photos/singapore/marina-bay.jpg
+  photos:
+    - image: /assets/images/photos/singapore/marina-bay.jpg
+      alt: The Merlion fountain and waterfront skyline beneath a cloudy sky
+    - image: /assets/images/photos/singapore/universal-globe.jpg
+      alt: A Universal globe fountain surrounded by palm trees and visitors
+    - image: /assets/images/photos/singapore/garden-towers.jpg
+      alt: Tall tree-shaped garden structures covered in greenery
+    - image: /assets/images/photos/singapore/indoor-waterfall.jpg
+      alt: An illuminated indoor waterfall beneath a glass dome at night
+    - image: /assets/images/photos/singapore/aquarium-window.jpg
+      alt: Visitors silhouetted against a large circular aquarium window
+    - image: /assets/images/photos/singapore/water-and-fire-show.jpg
+      alt: An audience watching flames spread across water in an indoor show
+    - image: /assets/images/photos/singapore/dragon-display.jpg
+      alt: A black dragon figure beneath a How to Train Your Dragon sign
+    - image: /assets/images/photos/singapore/jellyfish.jpg
+      alt: Golden jellyfish floating in a dark aquarium tank
+    - image: /assets/images/photos/singapore/southernmost-point.jpg
+      alt: A sign reading The Southernmost Point of Continental Asia among tropical plants
