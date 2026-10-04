@@ -2,7 +2,7 @@
   selected: true
   cover: /assets/images/covers/gkd-robots.png
   description: >-
-    A RoboMaster vision system for Southwest University's GKD team, adapted from Tongji University's open-source framework.
+    A RoboMaster vision system for Southwest University's GKD team.
     Built with C++17, OpenCV, and OpenVINO, it integrates YOLO detection, pose estimation, target tracking, aiming, and firing decisions.
   url: https://github.com/GKD-RM-Lab/gkd_vision_26
   demo_url: "https://www.xiaohongshu.com/explore/6ab1effe00000000310243bb?xsec_token=ABg6oDOoXoKlxsSrFH13ikwcTbx48OwV2w59UBDAqMS-k=&xsec_source=pc_user"
