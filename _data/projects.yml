@@ -8,7 +8,7 @@
   demo_url: "https://www.xiaohongshu.com/explore/6ab1effe00000000310243bb?xsec_token=ABg6oDOoXoKlxsSrFH13ikwcTbx48OwV2w59UBDAqMS-k=&xsec_source=pc_user"
 - name: GKD Control
   selected: true
-  cover: /assets/images/covers/gkd-control.png
+  cover: /assets/images/covers/gkd-control-architecture.png
   description: >-
     Robot control software for the GKD RoboMaster team, developed from an integrated vision-and-control system for sentry robots.
     It supports sentry, infantry, and hero configurations, with a Docker-based development environment and multiple build options.
