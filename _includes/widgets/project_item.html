@@ -10,9 +10,12 @@
     <div class="col-md-9 col-xl-10 p-3 pt-0 pt-md-3 pl-md-0">
         <h3 class="h5 mt-0 mb-1 font-weight-normal">{{ item.name | escape }}</h3>
         <p class="small mt-0 mb-2 text-muted">{{ item.description | escape }}</p>
-        <p class="small pb-0 mb-0">
-            {% if item.url %}<a href="{{ item.url | escape }}" target="_blank" rel="noopener">[GitHub]</a>{% endif %}
-            {% if item.demo_url %}<a href="{{ item.demo_url | escape }}" target="_blank" rel="noopener">[Demo Video]</a>{% endif %}
+        <p class="small pb-0 mb-0 d-flex align-items-center flex-wrap">
+            {% if item.url %}<a href="{{ item.url | escape }}" target="_blank" rel="noopener" class="mr-2">[GitHub]</a>{% endif %}
+            {% if item.demo_url %}<a href="{{ item.demo_url | escape }}" target="_blank" rel="noopener" class="mr-2">[Demo Video]</a>{% endif %}
+            {% if item.url contains "https://github.com/" %}
+            <span class="d-inline-flex align-items-center"><a class="github-button" href="{{ item.url | escape }}" data-icon="octicon-star" data-show-count="true" aria-label="Star {{ item.name | escape }} on GitHub">Star</a></span>
+            {% endif %}
         </p>
     </div>
 </article>
