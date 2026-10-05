@@ -327,3 +327,8 @@ div.lazy {
         transition: none;
     }
 }
+
+.profile-portrait {
+    object-fit: cover;
+    object-position: center 75%;
+}
