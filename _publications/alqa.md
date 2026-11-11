@@ -14,6 +14,6 @@ authors:
   - Shengwen Fu
   - Haibin Ling
   - Bingyao Huang
-  - Jingwei Qu
+  - Jingwei Qu#
 abstract: "We use human ratings to train a multimodal model to assess 3D annotation layouts across five views and five quality dimensions."
 ---
