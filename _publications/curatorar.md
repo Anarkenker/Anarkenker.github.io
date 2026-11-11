@@ -5,6 +5,7 @@ order: 1
 tags:
   - Augmented Reality
   - Cultural Artifact Learning
+pub: IEEE TVCG
 pub_last: '<span class="badge badge-pill badge-publication badge-warning">Under Review</span>'
 cover: /assets/images/covers/CuratorAR-pipeline.png
 authors:
