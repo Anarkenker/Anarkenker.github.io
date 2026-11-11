@@ -333,14 +333,21 @@ div.lazy {
     object-position: center 75%;
 }
 
+.experience-logo-slot {
+    flex: 0 0 37px;
+    line-height: 1;
+}
+
 .experience-logo-stack {
     position: relative;
-    flex: 0 0 37px;
+    display: block;
     height: 24px;
 }
 
 .experience-logo-stack img {
     position: absolute;
+    top: 0;
+    left: 0;
     width: 23px;
     height: 23px;
     object-fit: contain;
@@ -348,6 +355,7 @@ div.lazy {
 
 .experience-logo-stack img:last-child {
     right: 0;
+    left: auto;
     background: #fff;
     border-radius: 50%;
     box-shadow: 0 0 0 1px #fff;

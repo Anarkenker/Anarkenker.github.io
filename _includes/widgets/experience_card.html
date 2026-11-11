@@ -33,14 +33,16 @@
                             <ul class="list-unstyled mb-1">
                                 {% for item in site.data.profile.experience %}
                                 <li class="media mb-3">
-                                    {% if item.logo_behind and item.logo %}
-                                    <span class="experience-logo-stack mr-2 mt-1" aria-hidden="true">
-                                        <img src="{{ item.logo_behind | relative_url }}" alt="">
-                                        <img src="{{ item.logo | relative_url }}" alt="">
+                                    <span class="experience-logo-slot mr-2 mt-1" aria-hidden="true">
+                                        {% if item.logo_behind and item.logo %}
+                                        <span class="experience-logo-stack">
+                                            <img src="{{ item.logo_behind | relative_url }}" alt="">
+                                            <img src="{{ item.logo | relative_url }}" alt="">
+                                        </span>
+                                        {% elsif item.logo %}
+                                        <img src="{{ item.logo | relative_url }}" alt="" width="18">
+                                        {% endif %}
                                     </span>
-                                    {% elsif item.logo %}
-                                    <img src="{{ item.logo | relative_url }}" alt="{{ item.name }}" style="width: 18px;" class="mr-1 mt-1">
-                                    {% endif %}
                                     <div class="media-body">
                                         <div>{{ item.name }}</div>
                                         {% if item.dept %}<div class="small">{{ item.dept }}</div>{% endif %}
