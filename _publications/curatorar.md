@@ -16,4 +16,5 @@ authors:
   - Li Tao
   - Tao Jia
   - Jingwei Qu#
+abstract: "CuratorAR uses handheld RGB-D capture to identify museum artifacts and anchor informative labels in 3D, keeping them tied to the exhibit as visitors change viewpoints."
 ---

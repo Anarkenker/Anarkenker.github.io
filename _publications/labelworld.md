@@ -14,4 +14,5 @@ authors:
   - Zijian Qin
   - Haibin Ling
   - Jingwei Qu#
+abstract: "LabelWorld uses a world model to predict how joint label movements affect dynamic AR layouts, then trains a lightweight policy to correct force-based placements without online planning."
 ---
