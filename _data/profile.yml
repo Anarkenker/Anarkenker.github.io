@@ -55,9 +55,10 @@ experience:
   logo: /assets/images/badges/sjtu-seal.png
   position: Research Intern
   date: Aug. 2026
-- name: Southwest University
+- name: Southwest University &amp; Westlake University
   logo: /assets/images/badges/swu-seal.svg
-  dept: SCA Lab
+  logo_behind: /assets/images/badges/westlake-logo.png
+  dept: SCA Lab · Research guidance from Prof. Haibin Ling (Westlake University)
   position: Research Intern
   date: May 2025 - Present
 

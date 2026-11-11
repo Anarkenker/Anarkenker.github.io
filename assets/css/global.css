@@ -332,3 +332,23 @@ div.lazy {
     object-fit: cover;
     object-position: center 75%;
 }
+
+.experience-logo-stack {
+    position: relative;
+    flex: 0 0 37px;
+    height: 24px;
+}
+
+.experience-logo-stack img {
+    position: absolute;
+    width: 23px;
+    height: 23px;
+    object-fit: contain;
+}
+
+.experience-logo-stack img:last-child {
+    right: 0;
+    background: #fff;
+    border-radius: 50%;
+    box-shadow: 0 0 0 1px #fff;
+}
