@@ -5,7 +5,7 @@ order: 2
 tags:
   - World Models
   - Dynamic Label Placement
-pub: IEEE VR
+pub: IEEE VR 2027
 pub_last: '<span class="badge badge-pill badge-publication badge-warning">Under Review</span>'
 cover: /assets/images/covers/LabelWorld-pipeline.png
 authors:
