@@ -334,28 +334,28 @@ div.lazy {
 }
 
 .experience-logo-slot {
-    flex: 0 0 37px;
+    flex: 0 0 48px;
     line-height: 1;
 }
 
 .experience-logo-single {
-    width: 23px;
-    height: 23px;
+    width: 30px;
+    height: 30px;
     object-fit: contain;
 }
 
 .experience-logo-stack {
     position: relative;
     display: block;
-    height: 24px;
+    height: 30px;
 }
 
 .experience-logo-stack img {
     position: absolute;
     top: 0;
     left: 0;
-    width: 23px;
-    height: 23px;
+    width: 30px;
+    height: 30px;
     object-fit: contain;
 }
 
