@@ -45,7 +45,8 @@ education:
 - name: Southwest University
   logo: /assets/images/badges/swu-seal.svg
   dept: Yuan Longping College
-  position: Computer Science and Technology · Undergraduate Student
+  program: Computer Science and Technology
+  position: Undergraduate Student
   date: Sep. 2024 - Present
 - name: University of California, Berkeley
   logo: /assets/images/badges/uc-berkeley-seal.svg

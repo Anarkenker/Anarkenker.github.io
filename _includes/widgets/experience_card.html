@@ -15,8 +15,9 @@
                                     </span>
                                     <div class="media-body">
                                         <div>{{ item.name }}</div>
+                                        {% if item.program %}<div class="small">{{ item.dept }} · {{ item.program }}</div>{% endif %}
                                         <div class="small d-flex flex-wrap">
-                                            <div>{% if item.dept %}{{ item.dept }} · {% endif %}{{ item.position }}</div>
+                                            <div>{% unless item.program %}{% if item.dept %}{{ item.dept }} · {% endif %}{% endunless %}{{ item.position }}</div>
                                             <div class="mt-auto ml-auto no-break"><em>{{ item.date }}</em></div>
                                         </div>
                                     </div>
