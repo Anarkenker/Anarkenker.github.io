@@ -338,6 +338,12 @@ div.lazy {
     line-height: 1;
 }
 
+.experience-logo-single {
+    width: 23px;
+    height: 23px;
+    object-fit: contain;
+}
+
 .experience-logo-stack {
     position: relative;
     display: block;
