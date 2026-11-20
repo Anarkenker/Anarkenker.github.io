@@ -24,6 +24,10 @@ short_bio: >-
     in augmented reality and decision-making in robotics.
   </p>
   <p>
+    Since November 2026, I have been a Research Assistant at HPG Lab, Peking University Shenzhen Graduate School,
+    under the supervision of <a href="https://nkliuyifang.github.io/index.html" target="_blank" rel="noopener noreferrer">Prof. Mengyuan Liu</a>.
+  </p>
+  <p>
     Since May 2025, I have been conducting research with the Spatial Computing and Applications Lab (SCA Lab)
     at Southwest University under the supervision of <a href="https://jingweiqu.github.io/" target="_blank" rel="noopener noreferrer">Prof. Jingwei Qu</a>,
     working on 3D semantic perception for mobile AR and world-model-guided
@@ -51,6 +55,11 @@ education:
   date: Summer 2025
 
 experience:
+- name: Peking University Shenzhen Graduate School
+  logo: /assets/images/badges/PKU_red.png
+  dept: HPG Lab
+  position: Research Assistant
+  date: Nov. 2026 - Present
 - name: Shanghai Jiao Tong University
   logo: /assets/images/badges/sjtu-seal.png
   position: Research Intern
