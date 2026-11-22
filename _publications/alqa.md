@@ -5,7 +5,6 @@ order: 0
 tags:
   - 3D Annotation
   - Multimodal Quality Assessment
-pub: CVPR 2027
 pub_last: '<span class="badge badge-pill badge-publication badge-warning">Under Review</span>'
 cover: /assets/images/covers/ALQA-pipeline.png
 authors:
