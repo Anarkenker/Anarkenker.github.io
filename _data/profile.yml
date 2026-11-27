@@ -17,25 +17,17 @@ wechat_qr: /assets/images/photos/wechat-qr.jpg
 short_bio_text_justify: false
 short_bio: >-
   <p>
-    I am an undergraduate student in Computer Science and Technology at Southwest University,
-    enrolled in the Science Innovation Experimental Class at Yuan Longping College.
-    My research interests include <strong>computer vision, world models, AR/VR, and embodied intelligence</strong>.
-    I am particularly interested in how visual perception and predictive models can support interaction
-    in augmented reality and decision-making in robotics.
+    I am a Computer Science and Technology undergraduate at Yuan Longping College, Southwest University.
+    My research interests span <strong>computer vision, world models, AR/VR, and embodied intelligence</strong>.
+    As a research assistant at HPG Lab, Peking University Shenzhen Graduate School,
+    I study <strong>safety in agentic robotics</strong> under the supervision of
+    <a href="https://nkliuyifang.github.io/index.html" target="_blank" rel="noopener noreferrer">Prof. Mengyuan Liu</a>.
   </p>
   <p>
-    Since November 2026, I have been a Research Assistant at HPG Lab, Peking University Shenzhen Graduate School,
-    under the supervision of <a href="https://nkliuyifang.github.io/index.html" target="_blank" rel="noopener noreferrer">Prof. Mengyuan Liu</a>.
-  </p>
-  <p>
-    Since May 2025, I have been conducting research with the Spatial Computing and Applications Lab (SCA Lab)
-    at Southwest University under the supervision of <a href="https://jingweiqu.github.io/" target="_blank" rel="noopener noreferrer">Prof. Jingwei Qu</a>,
-    working on 3D semantic perception for mobile AR and world-model-guided
-    control for dynamic AR label placement. I also receive research guidance from
-    <a href="https://haibinling.github.io/" target="_blank" rel="noopener noreferrer">Prof. Haibin Ling</a> (IEEE Fellow) of Westlake University.
-    I also lead the vision team at the university's GKD Robotics
-    Innovation Laboratory, where I develop real-time perception, target tracking, and aiming systems
-    for RoboMaster robots.
+    At Southwest University's SCA Lab, I work on 3D semantic perception and world-model-guided AR label placement
+    with <a href="https://jingweiqu.github.io/" target="_blank" rel="noopener noreferrer">Prof. Jingwei Qu</a>
+    and receive guidance from <a href="https://haibinling.github.io/" target="_blank" rel="noopener noreferrer">Prof. Haibin Ling</a> of Westlake University.
+    I also lead the GKD RoboMaster vision team.
   </p>
 
 portrait_url: /assets/images/photos/shengwen-fu.jpg
