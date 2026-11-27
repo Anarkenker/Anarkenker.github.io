@@ -5,7 +5,7 @@ order: 0
 tags:
   - 3D Annotation
   - Multimodal Quality Assessment
-pub_last: '<span class="badge badge-pill badge-publication badge-warning">Under Review</span>'
+pub_last: '<span class="badge badge-pill badge-publication badge-under-review">Under Review</span>'
 cover: /assets/images/covers/ALQA-pipeline.png
 authors:
   - Hongyi Yang

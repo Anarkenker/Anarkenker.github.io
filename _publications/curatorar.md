@@ -5,7 +5,7 @@ order: 1
 tags:
   - Augmented Reality
   - Cultural Artifact Learning
-pub_last: '<span class="badge badge-pill badge-publication badge-warning">Under Review</span>'
+pub_last: '<span class="badge badge-pill badge-publication badge-under-review">Under Review</span>'
 cover: /assets/images/covers/CuratorAR-pipeline.png
 authors:
   - Shengwen Fu

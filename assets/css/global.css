@@ -103,6 +103,11 @@ div.lazy {
     font-size: 100%;
 }
 
+.badge-under-review {
+    background-color: #f1f3f5;
+    color: #495057;
+}
+
 .publication-tags .badge {
     background: #eef3f8;
     color: #36546e;
